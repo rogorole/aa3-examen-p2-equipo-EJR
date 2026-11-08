@@ -1,0 +1,6 @@
+modelo,tipo,parametros,exhaustividad,precision,exactitud,cumple,elegido
+Línea base (todo negativa),linea base,0,1.0,0.5,0.5,False,False
+Bigramas + densa,conjunto,480033,0.9235,0.8966019417475728,0.9085,True,True
+Embedding + Bi-LSTM,recurrente,1944897,0.9445,0.9051269765213225,0.92275,True,False
+BETO ajustado,transformer,109852418,0.9325,0.9395465994962217,0.93625,True,False
+Bi-LSTM 5 estrellas (extra),recurrente,1945157,0.856,0.9490022172949002,0.905,False,False
