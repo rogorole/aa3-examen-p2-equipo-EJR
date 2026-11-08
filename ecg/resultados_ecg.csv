@@ -1,0 +1,8 @@
+modelo,tipo,parametros,sensibilidad,especificidad,auc,cumple,elegido
+Línea base (clase mayoritaria),linea base,0,0.0,1.0,0.5,False,False
+MLP,mlp,11137,0.988,0.9983,0.9987,True,False
+Conv1D,convolucional,3809,0.9856,1.0,0.9976,True,False
+TCN,convolucional,4785,0.9856,0.9983,0.998,True,False
+LSTM,recurrente,4385,0.9952,0.9966,0.9983,True,True
+GRU apilada,recurrente,9729,0.9808,0.9966,0.998,True,False
+LSTM bidireccional,recurrente,2337,0.9832,0.9932,0.9955,True,False
